@@ -33,7 +33,7 @@
 .list i{
     padding-right:20px;
 }
-@media screen and (min-width:180px) and (max-width:768px){
+@media screen and (max-width:768px){
     .container{
         flex-wrap:wrap;
         gap:20px;
