@@ -33,3 +33,24 @@
 .list i{
     padding-right:20px;
 }
+@media screen and (min-width:180px) and (max-width:768px){
+    .container{
+        flex-wrap:wrap;
+        gap:20px;
+        justify-content:center;
+
+    }
+    .left,.right{
+        width:180px;
+        height:300px;
+    }
+    .list{
+        padding:5px 8px;
+        margin:10px 5px;
+        font-size:12px;
+    }
+    .list i
+    {
+        padding-right:10px;
+    }
+}
